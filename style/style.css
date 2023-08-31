@@ -5,7 +5,7 @@ body {
 .primary-btn {
     border: 0px;
     border-radius: 8px;
-    background: #E55473;
+    background-color: #E55473;
     padding: 20px 43px;
     text-align: center;
     color: #FFF;
@@ -78,7 +78,7 @@ header {
     width: 200px;
     height: 250px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background-color: rgba(167, 33, 98, 0.15);
     padding: 30px;
     margin-bottom: 0px;
 }
@@ -89,4 +89,16 @@ header {
     font-size: 18px;
     font-weight: 700;
     text-decoration: underline;
+}
+
+/* service quality part style */
+.service-quality-container {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 0px 150px 100px 150px;
+}
+.service-name {
+    padding: 20px;
 }
