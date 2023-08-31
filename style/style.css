@@ -1,4 +1,7 @@
 /* common style  */ 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 .primary-btn {
     border: 0px;
     border-radius: 8px;
@@ -8,17 +11,18 @@
     color: #FFF;
     font-weight: 700;
     font-size: 20px;
+    margin-top: 0px;
 }
 
 /* header part style */
 header {
     background-color:rgba(229, 84, 115, 0.10);
-    margin-bottom: 200px;
 }
 .top-banner {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 .top-banner-details {
     margin: 100px 0px 0px 150px;
@@ -27,16 +31,62 @@ header {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
+    margin-top: 0px;
     margin-bottom: 10px;
 }
 .top-banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+    margin-top: 0px;
     margin-bottom: 10px;
 }
 .top-banner .top-banner-image {
     width: 600px;
     height: 650px;
     margin: 50px 150px 0px 100px;
+}
+
+/* flowers feature part  */
+.flowers-feature {
+    margin: 0px 150px 100px 150px;
+    text-align: center;
+}
+.flowers-feature-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.flowers-feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+.flowers-feature-flowers-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.flower-and-name {
+    margin: 0px 10px 0px 0px;
+}
+.featured-flower-image {
+    width: 200px;
+    height: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 30px;
+    margin-bottom: 0px;
+}
+.flower-name {
+    margin-top: 5px;
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
 }
