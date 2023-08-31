@@ -130,3 +130,30 @@ header {
     height: 250px;
     margin: 20px 0px 20px 100px ;
 }
+
+/* instagram part added */
+.instagram-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.instagram-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px 0px 15px 0px;
+}
+.instagram-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.instagram-flower-image {
+    width: 200px;
+    height: 250px;
+    margin-right: 5px;
+}
