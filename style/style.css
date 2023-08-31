@@ -6,7 +6,7 @@ body {
     border: 0px;
     border-radius: 8px;
     background-color: #E55473;
-    padding: 20px 43px;
+    padding: 12px 25px;
     text-align: center;
     color: #FFF;
     font-weight: 700;
@@ -101,4 +101,32 @@ header {
 }
 .service-name {
     padding: 20px;
+}
+
+/* offer part style  */
+.offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin: 0px 0px 100px 0px;
+    text-align: center;
+}
+.offer-details-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0px 0px 10px 0px;
+}
+.offer-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px 0px 10px 0px;
+}
+.offer-image {
+    width: 200px;
+    height: 250px;
+    margin: 20px 0px 20px 100px ;
 }
