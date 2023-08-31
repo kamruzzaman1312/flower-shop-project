@@ -157,3 +157,67 @@ header {
     height: 250px;
     margin-right: 5px;
 }
+
+/* subscribe form part style */
+.subscribe-container {
+    background-image: url(../Rectangle\ 9.png);
+    margin: 0px 150px 100px 150px;
+    padding: 50px;
+}
+.subscribe-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.subscribe-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px 0px 15px 0px;
+}
+.input-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+}
+.email-input-field {
+    width: 500px;
+    height: 40px;
+}
+/* footer part style */
+footer {
+    background-color:#111010;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title {
+    color: #E55473;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0px 0px 10px 0px;
+}
+.footer-shop-word {
+    color: #FFF;;
+}
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+}
+.footer-autorship {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
